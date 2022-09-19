@@ -1,0 +1,29 @@
+{
+  "name": "entertainmentapi",
+  "version": "1.0.0",
+  "description": "- This is my first API. - This will store all my entertainment items such as video games and books I own.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanwuuuu/EntertainmentApi.git"
+  },
+  "author": "Jordan Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanwuuuu/EntertainmentApi/issues"
+  },
+  "homepage": "https://github.com/jordanwuuuu/EntertainmentApi#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
